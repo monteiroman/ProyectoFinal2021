@@ -13,12 +13,12 @@
 #include "lwip/err.h"
 #include "lwip/sys.h"
 
-#define GPIO_OUTPUT_IO_2     2
-#define GPIO_OUTPUT_PIN_SEL  1ULL<<GPIO_OUTPUT_IO_2
+#define GPIO_OUTPUT_IO_2            2
+#define GPIO_OUTPUT_PIN_SEL         1ULL<<GPIO_OUTPUT_IO_2
 
-#define EXAMPLE_ESP_WIFI_SSID      "mywifissid"
-#define EXAMPLE_ESP_WIFI_PASS      "mywifipass"
-#define EXAMPLE_MAX_STA_CONN       (3)
+#define EXAMPLE_ESP_WIFI_SSID       "mywifissid"
+#define EXAMPLE_ESP_WIFI_PASS       "01234567"
+#define EXAMPLE_MAX_STA_CONN        (3)
 
 void * thread_blink(void *);
 void wifi_init_softap();
