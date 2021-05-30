@@ -1,4 +1,4 @@
-#include "../include/main.h"
+
 #include "../include/thread_blink.h"
 
 void * thread_blink(void * p){
